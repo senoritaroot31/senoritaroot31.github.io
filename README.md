@@ -127,13 +127,13 @@
 <body>
   <div id="particles-js"></div>
   <div class="container">
-    <img src="https://i.hizliresim.com/n7bf838.png" height="400" align="middle" border="0"><br>
+    <img src="https://i.hizliresim.com/n7bf838.png" height="400" align="middle" border="0">
+    <img src="https://i.hizliresim.com/24ubksj.png" height="390" align="middle" border="0"><br> 
     <center>
       <h1>Hacked by Senorita - <span>Cyber Serpents</span> - shinzo</h1>
       <h2>Who We Are, We Are Cyber Serpents, We Are Everywhere, We Are Unreachable, We are nightmare</h2>
       <h3>Greetz: OBT - All Cyber Serpents Team And Turkish The People <img src="https://cdn.countryflags.com/thumbs/turkey/flag-wave-250.png" alt="Turkish Flag" class="flag"></h3>
       <h4>Telegram:t.me/wordpressexploit : Shell Sales And Exploit Share</h4>
-      <!-- Animasyonlu simgeler -->
       <i class="fas fa-code animated-icon"></i>
       <i class="fas fa-lock animated-icon"></i>
       <i class="fas fa-skull-crossbones animated-icon"></i>
@@ -196,6 +196,14 @@
       },
       "retina_detect": true
     });
+  </script>
+  <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function(e) {
+      if (e.ctrlKey && (e.keyCode === 85)) {
+        return false;
+      }
+    };
   </script>
 </body>
 </html>
